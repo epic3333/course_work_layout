@@ -16,6 +16,11 @@
 /* ---------------------header--------------------- */
 
 .header {
+  position: absolute;
+  width: 100%;
+}
+
+.header-first-background {
   background-color: var(--black);
 }
 
@@ -57,11 +62,6 @@ ul {
   color: red;
 }
 
-
-/* .menu__list_item:focus-visible {
-  outline: var(--tapColor) auto 1px;
-} */
-
 .menu__list_item:last-child {
   margin-right: 0;
 }
@@ -101,4 +101,21 @@ ul {
 .login:hover path {
   fill: var(--hoverColor);
   transition: fill .2s ease;
+}
+
+.menu-second__list {
+  display: flex;
+}
+
+.menu__list_item {
+  margin-right: 97px;
+}
+
+
+
+/* ---------------------hero--------------------- */
+
+.hero {
+  background: url('../img/hero/background-1.jpg') no-repeat center;
+  background-size: cover;
 }
